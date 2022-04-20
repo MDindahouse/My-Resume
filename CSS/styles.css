@@ -1,60 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: #443e44;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #443e44;
 }
 
 header {
-    text-align: center;
-    font-weight: 560;
-    margin: 30px;
-
+      color: #000;
+      font-weight: 600;
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
 }
 
-header a {
-    font-style: italic;
-    text-decoration: none;
+header p {
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: .179rem;
+      /* text-align: left; */
 }
 
-header a:hover {
-    text-decoration: underline;
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
 }
 
-main {
-    line-height: 1.5;
-    margin: 10px;
-}
-
-.sec-one {
-    margin-bottom: 40px;
-}
-
-.sec-one p, h3, h4 {
-    margin: 15px;
-}
-
-.sec-two {
-    margin-bottom: 40px;
-}
-
-.sec-two p, h3, h4 {
-    margin: 15px;
-}
-
-.sec-three {
-    margin-bottom: 40px;
-}
-
-.sec-three h3, li {
-    margin: 15px;
+.divider {
+      border: 1px solid #DBDADB;
+      margin-bottom: 1.7rem;
 }
 
 h3 {
-    text-decoration: underline;
+      font-size: 1.5rem;
+      letter-spacing: .2rem;
 }
+
+h4 {
+      font-size: 1.4rem;
+      letter-spacing: .197rem;
+      margin-bottom: 1.5rem;
+}
+
+.sum_info, .edu_info, .skill_info, .lang_info {
+      color: #000;
+      text-align: left;
+}
+
+.sum_info p {
+      font-size: 1.4rem;
+      letter-spacing: .2rem;
+      line-height: 1.5;
+      margin-bottom: 1.7rem;
+}
+
+.edu_info li, .skill_info li, .lang_info li, .sum_info li {
+      color: #000;
+      font-size: 1.4rem;
+      letter-spacing: .2rem;
+      line-height: 1.5;
+      margin-bottom: 1.7rem;
+}
+
+@media only screen and (min-width: 1024px) {
+      .divider {
+            margin-bottom: 2.5rem;
+      }
+
+      header p {
+      font-size: 1.6rem;
+      /* text-align: left; */
+}
+
+      h3 {
+            font-size: 1.6rem;
+      }
+
+      h4 {
+            font-size: 1.6rem;
+            margin-bottom: 1.7rem;
+      }
+
+      .sum_info p {
+            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+      }
+
+
+      .edu_info li, .skill_info li, .lang_info li, .sum_info li {
+            font-size: 1.6rem;
+            line-height: 1.5;
+            margin-bottom: 1.8rem;
+      }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+header p {
+      font-size: 1.9rem;
+      font-weight: 600;
+      letter-spacing: .179rem;
+      /* text-align: left; */
+}
+
+      h3 {
+            font-size: 2rem;
+            letter-spacing: .3rem;
+      }
+
+      h4 {
+            font-size: 1.9rem;
+            letter-spacing: .199rem;
+            margin-bottom: 1.9rem;
+      }
+
+      .sum_info p {
+            font-size: 1.8rem;
+            letter-spacing: .419rem;
+            line-height: 1.5;
+            margin-bottom: 1.7rem;
+      }
+
+
+      .edu_info li, .skill_info li, .lang_info li, .sum_info li {
+            font-size: 1.8rem;
+            line-height: 1.7;
+            margin-bottom: 2.5rem;
+      }
+}
+
