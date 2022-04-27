@@ -6,6 +6,7 @@
 
 body {
       font-family: 'Raleway', sans-serif;
+      font-weight: 550;
 }
 
 header {
@@ -53,7 +54,7 @@ h4 {
 }
 
 .sum_info p {
-      font-size: 1.1rem;
+      font-size: 1rem;
       letter-spacing: .2rem;
       line-height: 1.5;
       margin-bottom: 1.7rem;
@@ -61,7 +62,7 @@ h4 {
 
 .edu_info li, .skill_info li, .lang_info li, .sum_info li {
       color: #000;
-      font-size: 1.1rem;
+      font-size: 1rem;
       letter-spacing: .2rem;
       line-height: 1.5;
       margin-bottom: 1.7rem;
