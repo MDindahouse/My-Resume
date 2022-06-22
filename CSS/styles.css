@@ -5,6 +5,7 @@
 }
 
 body {
+      color: #ececf1;
       font-family: 'Raleway', sans-serif;
       font-weight: 550;
 }
@@ -14,36 +15,46 @@ header {
       max-width: 768px;
       margin: 0 auto;
       padding: 1.5rem;
+      line-height: 1.5;
       text-align: center;
 }
 
+header a {
+      color: #000;
+      text-decoration: none;
+      letter-spacing: 1.5px;
+      padding: 0 5px;
+}
+
 header h1 {
-      font-size: 2rem;
+      font-size: 1.6rem;
 }
 
 header p {
-      font-size: 1rem;
+      font-size: .8rem;
       letter-spacing: .179rem;
 }
 
 .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 2.5rem;
+      padding: 1.8rem;
 }
 
 .divider {
-      border: 1px solid #DBDADB;
+      border: 1px solid #f0f0f0;
       margin-bottom: 1.7rem;
 }
 
 h3 {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       letter-spacing: .2rem;
+      margin-bottom: 1.7rem;
+      text-decoration: underline;
 }
 
 h4 {
-      font-size: 1.1rem;
+      font-size: 1rem;
       letter-spacing: .197rem;
       margin-bottom: 1.5rem;
 }
@@ -67,8 +78,6 @@ h4 {
       line-height: 1.5;
       margin-bottom: 1.7rem;
 }
-
-
 
 
 
@@ -111,8 +120,6 @@ h4 {
             margin-bottom: 1.8rem;
       }
 }
-
-
 
 
 
